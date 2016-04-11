@@ -33,6 +33,9 @@
 
 -(void)segment:(CustomSegment *)segment didSelectAtIndex:(NSInteger)index {
     NSLog(@"--------");
+    
+
+    
 }
 
 @end

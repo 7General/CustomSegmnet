@@ -1,10 +1,4 @@
-//
-//  CustomSegment.m
-//  suning6iphone
-//
-//  Created by  liukun on 13-7-23.
-//  Copyright (c) 2013年 liukun. All rights reserved.
-//
+
 
 #import "CustomSegment.h"
 #import "UIView+Additions.h"
