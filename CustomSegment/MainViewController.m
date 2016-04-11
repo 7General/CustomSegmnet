@@ -31,6 +31,12 @@
     [self.view addSubview:self.topSegment];
 }
 
+/**
+ *  点击事件
+ *
+ *  @param segment <#segment description#>
+ *  @param index   <#index description#>
+ */
 -(void)segment:(CustomSegment *)segment didSelectAtIndex:(NSInteger)index {
     NSLog(@"--------");
     
