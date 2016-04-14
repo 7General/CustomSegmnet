@@ -20,8 +20,8 @@
 {
     if (!_topSegment)
     {
-        _topSegment = [[CustomSegment alloc] initWithFrame:CGRectMake(0, 100, 320, 35)];
-        _topSegment.items = [NSArray arrayWithObjects:@"历史", @"搜索", nil];
+        _topSegment = [[CustomSegment alloc] initWithFrame:CGRectMake(0, 100, 320 ,  35 )];
+        _topSegment.items = [NSArray arrayWithObjects:@"历史", @"搜索", @"搜索", @"搜索1", @"搜索1", @"搜索1", @"搜索1", @"搜索1", @"搜索13", nil];
         _topSegment.delegate = self;
     }
     return _topSegment;
@@ -39,9 +39,7 @@
  */
 -(void)segment:(CustomSegment *)segment didSelectAtIndex:(NSInteger)index {
     NSLog(@"--------");
-    
 
-    
 }
 
 @end
